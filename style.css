@@ -1,8 +1,47 @@
-img {
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  width: 60%;
+  font-family: Helvetica;
+  font-size: 1.1em;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    width: 50%;
+    width: inherit;
+}
+
+.openingsuren {
+  display: inline-block;
+  width: 46%;
+  padding: 20px;
+  border-radius: 15px;
+  border: 5px dotted #DDD;
+}
+
+.float {
+  float: right;
+}
+
+.adres {
+  vertical-align: top;
+  display: inline-block;
+  width: 35%;
+  padding: 20px;
+  border-radius: 15px;
+  border: 5px dotted #DDD;
+}
+
+.adres img {
+  display: block;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  margin-left: 75%;
+  width: 100px;
 }
