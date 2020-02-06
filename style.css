@@ -6,6 +6,7 @@
   width: 60%;
   font-family: Helvetica;
   font-size: 1.1em;
+  text-align: center;
 }
 
 .logo {
@@ -19,10 +20,11 @@
 
 .openingsuren {
   display: inline-block;
-  width: 46%;
+  width: 45%;
   padding: 20px;
   border-radius: 15px;
   border: 5px dotted #DDD;
+  text-align: left;
 }
 
 .float {
@@ -32,16 +34,20 @@
 .adres {
   vertical-align: top;
   display: inline-block;
-  width: 35%;
+  width: 28%;
   padding: 20px;
   border-radius: 15px;
   border: 5px dotted #DDD;
-}
+  text-align: left;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;}
 
 .adres img {
   display: block;
   margin-top: -50px;
   margin-bottom: -50px;
-  margin-left: 78%;
+  margin-left: 82%;
   width: 100px;
 }
