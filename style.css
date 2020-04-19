@@ -72,3 +72,9 @@
   margin-left: 82%;
   width: 100px;
 }
+
+a {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
