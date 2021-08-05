@@ -147,3 +147,15 @@ a {
      -moz-hyphens: auto;
           hyphens: auto;
   }
+
+  .vakantie {
+    display: inline-block;
+    width: 76%;
+    border-radius: 15px;
+    padding: 10px;
+    border: 5px dotted #DDD;
+    background-color: #DDD;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #000;
+  }
